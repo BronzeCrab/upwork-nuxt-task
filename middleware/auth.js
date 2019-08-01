@@ -3,7 +3,7 @@
 // I want to make API request here to validate the token.
 export default async function ({ store, redirect }) {
   if (!store.state.auth.userToken) {
-    redirect('/login')
+    redirect('/')
   }
 
   /*const isValid = await this.$axios.$post('/api/validate', {
@@ -13,9 +13,8 @@ export default async function ({ store, redirect }) {
     setTimeout(() => res(true), 1000)
   })
   if (!isValid) {
-    redirect('/login')
+    redirect('/')
   }
 
   console.log('User authenticated!')
 }
-

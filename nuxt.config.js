@@ -1,6 +1,6 @@
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
   /*
   ** Headers of the page
   */
@@ -30,7 +30,7 @@ export default {
   plugins: [
     { src: '~/plugins/localStorage.js', ssr: false }
   ],
-  
+
   /*
   ** Nuxt.js modules
   */
