@@ -22,7 +22,7 @@ Maybe use some of this packages?
 
   https://www.npmjs.com/package/vuex-persistedstate
 
-2. How to guard the route correctly, so i want the `/admin` page be guarded. How can I retrive saved token here in order to make API request? (`middleware/auth.js` TODO 2)
+2. How to guard the route correctly, so i want the `/admin` page be guarded. How can I retrive saved token here in order to make API request to validate token? (`middleware/auth.js` TODO 2)
 3. How can I used persisted saved token in `admin` page? (`store/admin.js` TODO 3)
 
 ## What to do:
