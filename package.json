@@ -11,9 +11,12 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/bulma": "^1.2.4",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-plugin-react": "^7.14.3",
     "nodemon": "^1.18.9"
   }
 }
