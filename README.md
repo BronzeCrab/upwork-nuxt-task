@@ -16,6 +16,9 @@ $ npm run dev
 ## What problems do i have:
 
 1. How to save token persisted? So when user refresh the admin page it stay login on that page. (`store/auth.js/` TODO 1)
+Maybe use some of this packages?:
+  https://www.npmjs.com/package/nuxt-vuex-localstorage
+  https://www.npmjs.com/package/vuex-persistedstate
 2. How to guard the route correctly, so i want the `/admin` page be guarded. How can I retrive saved token here in order to make API request? (`middleware/auth.js` TODO 2)
 3. How can I used persisted saved token in `admin` page? (`store/admin.js` TODO 3)
 
