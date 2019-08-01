@@ -1,6 +1,6 @@
 # upwork-nuxt-task
 
-My Nuxt.js project. Its very basic. It have 2 pages: index(login) and admin. And I have some problems with it.
+My Nuxt.js project. Its very basic. It has 2 pages: index(login) and admin. And 2 separate vuex files. And I have some problems with it.
 
 ## How to run it:
 
