@@ -20,4 +20,4 @@ $ npm run dev
 3. How can I used persisted saved token in `admin` page? (`store/admin.js` TODO 3)
 
 ## What to do:
-So please help me with this problems if you can
+So please help me with this three problems if you can. Also i want to implement best practices, so if i've done something bad, you know, please show me the right way to do it, thx.
