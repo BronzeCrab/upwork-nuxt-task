@@ -1,6 +1,21 @@
 // TODO 2 - how can i use saved token here
 // in order to guard the /admin route?
 // I want to make API request here to validate the token.
-export default function ({ store, redirect }) {
-  console.log('in middleware')
+export default async function ({ store, redirect }) {
+  if (!store.state.auth.userToken) {
+    redirect('/login')
+  }
+
+  /*const isValid = await this.$axios.$post('/api/validate', {
+    token: store.state.admin.userToken
+  })*/
+  const isValid = await new Promise((res) => {
+    setTimeout(() => res(true), 1000)
+  })
+  if (!isValid) {
+    redirect('/login')
+  }
+
+  console.log('User authenticated!')
 }
+
