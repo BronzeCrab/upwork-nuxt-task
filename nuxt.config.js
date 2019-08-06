@@ -1,6 +1,6 @@
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
   /*
   ** Headers of the page
   */
@@ -28,6 +28,7 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/notifications.js', ssr: false },
     { src: '~/plugins/localStorage.js', ssr: false }
   ],
   

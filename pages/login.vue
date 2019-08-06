@@ -9,11 +9,21 @@
     <div class="field">
       <button class="button is-info">Login</button>
     </div>
+    <notifications position="bottom left"/>
   </form>
+    
 </template>
 
 <script>
 export default {
+  mounted() {
+    if (this.$route.query.status === 'email_confirmed') {
+      this.$notify({
+        title: 'Important message',
+        text: 'Hello user! This is a notification!'
+      })
+    }
+  },
   methods: {
     login() {
       this.$store.dispatch('auth/login', this)
