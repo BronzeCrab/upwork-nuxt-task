@@ -31,7 +31,7 @@ export default {
     { src: '~/plugins/notifications.js', ssr: false },
     { src: '~/plugins/localStorage.js', ssr: false }
   ],
-  
+
   /*
   ** Nuxt.js modules
   */
